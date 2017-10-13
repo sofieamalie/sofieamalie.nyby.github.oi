@@ -1,0 +1,487 @@
+/*forside*/
+
+header {
+	min-height: 100px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+    background-image: url("teaterforside.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+	width: 300px;
+	margin-top: 50px;
+}
+
+.forsideheader {
+	margin-bottom: 40%;
+}
+
+
+body {
+	font-family: heiti sc;
+	margin: 0;
+	padding: 0;
+	background: #ffff;
+}
+
+
+ul {
+	list-style-type: none;
+	overflow: auto;
+	background-color: #dddddd;
+
+}
+
+
+li {
+	display: inline-block;
+	text-align: center;
+}
+
+
+li a {
+	display: block;
+	color: black;
+	padding: 15px 16px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 40px;
+
+}
+
+li a:hover {
+	background-color: lightgrey;
+}
+
+.nav li {
+	float: none;
+}
+
+.nav ul {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #dddddd;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input [type=text] {
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	background-image: url("searchicon.png");
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 10px 10px 10px 10px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+
+}
+
+.soeg {
+	float: right;
+	width: 140px;
+	height: 40px;
+	margin-right: 10px;
+	
+
+}
+
+
+.sa {
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-bottom: 3px solid;
+	border-bottom-color: #6cb1de;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+
+div.artikler {
+	border: px solid #ccc;
+
+}
+
+div.artikler:hover {
+	border: 1px solid #777;
+}
+
+div.artikler img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 24px;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.responsive {
+	padding: 1px 1px;
+	display: inline-block;
+	width: 25%;
+	margin-left: inherit;
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+	
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*Få et større netværk med sport*/
+
+.midten {
+
+	display: inline-block;
+	text-align: center;
+}
+
+.tekst {
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 30px;
+}
+
+ol.a {
+	list-style-type: circle;
+}
+
+
+/*footer*/
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.footer-distributed {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font-family: heiti sc;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h3 span {
+	color: #5383d3;
+}
+
+.footer-distributed .footer-company-name {
+	color: #8f9296;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 35px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 3;
+}
+
+.footer-distributed .footer-center p a {
+	color: #5383d3;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*mediaquery*/
+
+@media (max-width: 880px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+
+}
+
+/*Artikler siden*/
+
+.a {
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-bottom: 3px solid;
+	border-bottom-color: #8b9a95;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.arfoto {
+	width: 60%;
+	text-align: center;
+
+}
+
+.oversigt {
+	display: block;
+	text-align: center;
+}
+
+.design {
+	text-decoration: none;
+	color: black;
+}
+
+.design:hover {
+	color: #8b9a95;
+}
+
+/*skribenter siden*/
+
+.b {
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-bottom: 3px solid;
+	border-bottom-color: #fec851;;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.tekstmargin {
+	text-align: justify;
+	margin-left: 32%;
+	margin-right: 33%;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+.skribent {
+	display: inline-block;
+	text-align: left;
+	margin-left: 140px;
+}	
+
+.skribent1 {
+	line-height: 30px;
+	margin-left: -35px;
+	width: 50%;
+	text-align: justify;
+}
+
+section.lol {
+    display: inline-flex;
+    margin: 0 5%;
+	margin-left:auto;
+}
+ 
+.lol img {
+    width: 30%;
+    height: 30%;
+}
+ 
+.lol p {
+    text-align: justify;
+	margin-top: 40px;
+}
+
+.lol {
+	margin: 0px 50px 0px 50px;
+}
+ 
+/*Kontakt siden*/
+
+.c {
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-bottom: 3px solid;
+	border-bottom-color: #ef7d4a;
+	margin-left: 26%;
+	margin-right: 26%;
+}
+
+
+input[type=text1],
+select,
+textarea {
+	width: 50%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 1px solid #ccc;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 6px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+	background-color: #ef7d4a;
+;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+	background-color: salmon;
+	
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	
+}
